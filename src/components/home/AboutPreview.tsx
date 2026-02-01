@@ -10,8 +10,12 @@ export function AboutPreview() {
       <Container size="md">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <RevealOnScroll direction="left">
-            <div className="aspect-square bg-gradient-to-br from-secondary/10 to-accent/10 rounded-2xl flex items-center justify-center">
-              <span className="text-8xl">👤</span>
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+              <img
+                src="/images/cole-ortiz.jpg"
+                alt="Cole Ortiz"
+                className="w-full h-full object-cover"
+              />
             </div>
           </RevealOnScroll>
 
@@ -22,7 +26,7 @@ export function AboutPreview() {
               </h2>
               <p className="text-muted text-lg mb-4">
                 I graduated from the University of Georgia with a degree in
-                Finance, but my passions extend far beyond spreadsheets and
+                Financial Planning, but my passions extend far beyond spreadsheets and
                 financial models.
               </p>
               <p className="text-muted text-lg mb-8">

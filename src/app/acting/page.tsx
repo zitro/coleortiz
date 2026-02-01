@@ -100,8 +100,12 @@ export default function ActingPage() {
 
             <div className="space-y-6">
               <RevealOnScroll delay={0.2} direction="right">
-                <div className="aspect-[3/4] bg-gradient-to-br from-secondary/10 to-accent/10 rounded-2xl flex items-center justify-center">
-                  <span className="text-8xl">👤</span>
+                <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
+                  <img
+                    src="/images/cole-ortiz.jpg"
+                    alt="Cole Ortiz - Headshot"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <p className="text-sm text-muted text-center mt-2">Headshot</p>
               </RevealOnScroll>

@@ -75,8 +75,12 @@ export default function AboutPage() {
 
             <div className="space-y-6">
               <RevealOnScroll delay={0.2} direction="right">
-                <div className="aspect-square bg-gradient-to-br from-secondary/10 to-accent/10 rounded-2xl flex items-center justify-center">
-                  <span className="text-8xl">👤</span>
+                <div className="aspect-square rounded-2xl overflow-hidden">
+                  <img
+                    src="/images/cole-ortiz.jpg"
+                    alt="Cole Ortiz"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </RevealOnScroll>
 
