@@ -12,11 +12,9 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-4">
           {/* Brand */}
           <div className="md:col-span-2">
-            <NextLink
-              href="/"
-              className="text-2xl font-bold text-foreground tracking-tight"
-            >
-              Cole Ortiz
+            <NextLink href="/" className="inline-flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-violet-500" />
+              <span className="logo-text text-2xl">Cole Ortiz</span>
             </NextLink>
             <p className="mt-4 text-muted max-w-md">
               Finance professional, entrepreneur, and creative. Bridging the

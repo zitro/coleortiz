@@ -40,7 +40,29 @@
   --color-surface: var(--color-surface);
   --color-surface-elevated: var(--color-surface-elevated);
   --font-sans: var(--font-inter);
-  --font-display: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+/* Logo styles */
+.logo-text {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  background: linear-gradient(
+    135deg,
+    #1e293b 0%,
+    #0f172a 40%,
+    #3b82f6 100%
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: background-position 0.5s ease;
+}
+
+.logo-text:hover {
+  background-position: 100% 100%;
 }
 
 /* Base styles */

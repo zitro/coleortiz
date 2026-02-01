@@ -41,11 +41,25 @@ export function Navbar() {
         <Container>
           <nav className="flex items-center justify-between">
             <MagneticButton>
-              <NextLink
-                href="/"
-                className="text-xl font-bold text-foreground tracking-tight"
-              >
-                Cole Ortiz
+              <NextLink href="/" className="group relative flex items-center gap-2">
+                {/* Decorative accent dot */}
+                <motion.span
+                  className="absolute -left-4 w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-violet-500"
+                  initial={{ scale: 0, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ delay: 0.5, duration: 0.3 }}
+                />
+                {/* Logo text */}
+                <span className="logo-text text-2xl md:text-[1.4rem]">
+                  Cole Ortiz
+                </span>
+                {/* Animated underline on hover */}
+                <motion.span
+                  className="absolute -bottom-1 left-0 h-[2px] bg-gradient-to-r from-blue-500 via-violet-500 to-pink-500 rounded-full"
+                  initial={{ width: 0 }}
+                  whileHover={{ width: '100%' }}
+                  transition={{ duration: 0.3, ease: 'easeOut' }}
+                />
               </NextLink>
             </MagneticButton>
 
