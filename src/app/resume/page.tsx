@@ -84,10 +84,6 @@ export default function ResumePage() {
                 </span>
                 <span className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
-                  cole@example.com
-                </span>
-                <span className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-pink-500" />
                   linkedin.com/in/coleortiz
                 </span>
               </div>
