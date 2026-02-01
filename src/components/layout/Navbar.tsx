@@ -50,7 +50,7 @@ export function Navbar() {
                   transition={{ delay: 0.5, duration: 0.3 }}
                 />
                 {/* Logo text */}
-                <span className="logo-text text-2xl md:text-[1.4rem]">
+                <span className="logo-text text-2xl md:text-[1.75rem]">
                   Cole Ortiz
                 </span>
                 {/* Animated underline on hover */}

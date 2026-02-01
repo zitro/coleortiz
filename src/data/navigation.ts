@@ -7,5 +7,6 @@ export const navLinks: NavLink[] = [
   { label: 'Film', href: '/film' },
   { label: 'Acting', href: '/acting' },
   { label: 'Journal', href: '/journal' },
+  { label: 'Resume', href: '/resume' },
   { label: 'Contact', href: '/contact' },
 ];
