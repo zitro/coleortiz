@@ -38,13 +38,14 @@ const experience = [
 const education = [
   {
     institution: 'University of Georgia',
-    degree: 'Bachelor of Business Administration',
-    field: 'Finance',
-    period: '2019 - 2023',
+    degree: 'Bachelor of Science in Family and Consumer Sciences',
+    field: 'Financial Planning',
+    period: '2021 - 2024',
     location: 'Athens, GA',
     highlights: [
-      'Terry College of Business',
-      'Relevant coursework: Corporate Finance, Investment Analysis, Financial Modeling, Venture Capital',
+      'College of Family and Consumer Sciences',
+      'CFP Board-Registered Program - eligible for Certified Financial Planner (CFP) examination',
+      'Relevant coursework: Financial Planning, Investment Analysis, Estate Planning, Retirement Planning, Tax Planning',
     ],
   },
 ];
@@ -59,7 +60,7 @@ const skills = {
 const awards = [
   { title: 'Best Short Film', event: 'Atlanta Film Festival', year: '2024' },
   { title: 'Audience Choice Award', event: 'Southern Shorts Awards', year: '2023' },
-  { title: "Dean's List", event: 'University of Georgia', year: '2019-2023' },
+  { title: "Dean's List", event: 'University of Georgia', year: '2021-2024' },
 ];
 
 export default function ResumePage() {

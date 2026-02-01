@@ -27,9 +27,9 @@ export default function AboutPage() {
                 <div className="prose prose-lg max-w-none">
                   <p className="text-muted text-lg leading-relaxed">
                     I&apos;m Cole Ortiz, a University of Georgia graduate with a
-                    degree in Finance. While my academic background is rooted in
-                    financial analysis and investment strategy, my passions span
-                    far beyond the world of spreadsheets.
+                    degree in Financial Planning from the College of Family and Consumer Sciences.
+                    While my academic background is rooted in helping individuals and families
+                    achieve their financial goals, my passions span far beyond the world of spreadsheets.
                   </p>
                 </div>
               </RevealOnScroll>
@@ -102,9 +102,11 @@ export default function AboutPage() {
                       University of Georgia
                     </span>
                     <br />
-                    Bachelor of Business Administration
+                    BS in Family and Consumer Sciences
                     <br />
-                    Finance
+                    Financial Planning
+                    <br />
+                    <span className="text-sm">Class of 2024</span>
                   </p>
                 </div>
               </RevealOnScroll>
